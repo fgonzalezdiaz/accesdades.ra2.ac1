@@ -1,4 +1,5 @@
 drop table if exists students;
+-- Esquema de la taula students
 CREATE TABLE students(
     id BIGSERIAL PRIMARY KEY,
     nom VARCHAR(100) NOT NULL,
