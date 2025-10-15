@@ -1,6 +1,6 @@
 drop table if exists students;
 CREATE TABLE students(
-    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    id BIGSERIAL PRIMARY KEY,
     nom VARCHAR(100) NOT NULL,
     cognom VARCHAR(100) DEFAULT NULL,
     age INT DEFAULT NULL,
