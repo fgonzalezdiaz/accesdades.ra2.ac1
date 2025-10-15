@@ -1,20 +1,20 @@
 package com.accesdades.ra2.ac1.accesdades_ra2_ac1.model;
 
-public class Students {
+public class Student {
     private Long id;
     private String nom;
     private String cognom;
     private int age;
     private String cicle;
-    private int any;
-
-    public Students(Long id, String nom, String cognom, int age, String cicle, int any) {
+    private int anyo;
+    public Student (){}
+    public Student(Long id, String nom, String cognom, int age, String cicle, int anyo) {
         this.id = id;
         this.nom = nom;
         this.cognom = cognom;
         this.age = age;
         this.cicle = cicle;
-        this.any = any;
+        this.anyo = anyo;
     }
     
     public Long getId() {
@@ -48,10 +48,10 @@ public class Students {
         this.cicle = cicle;
     }
     public int getAny() {
-        return any;
+        return anyo;
     }
-    public void setAny(int any) {
-        this.any = any;
+    public void setAnyo(int anyo) {
+        this.anyo = anyo;
     }
     
 }
